@@ -1,0 +1,129 @@
+/*
+You will style your page using at least 5 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+/*This file should have CSS rulesets */
+h2 {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: lightblue;
+    margin: 5px;
+}
+
+ol {
+    text-align: center;
+}
+
+body {
+    background-color: #252b31;
+
+    color: white;
+}
+
+textarea {
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+
+    border-radius: 15px;
+    border: 5px #393e47;
+    background-color: #2a2f39;
+
+    padding: 10px;
+    color: white;
+}
+
+textarea:active, textarea:focus {
+    outline: 0;
+    border: 5px #0373ff;
+    color: white;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto -40px auto;
+    background-color: #0373ff;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+input[type="submit"]:focus-visible {
+    outline: 1px white;
+}
+
+label {
+    display: block;
+}
+
+form {
+    /* display: flex;
+    flex-direction: column; */
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    width: max-content;
+
+    text-align: center;
+    background-color: #323741;
+    padding: 20px 30px 25px 30px;
+
+    border-radius: 25px;
+}
+
+img {
+    margin: 10px;
+}
+
+.error, .not-found {
+    color: #CF6679;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+header {
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+#results {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    width: max-content;
+
+    /* text-align: center; */
+    background-color: #323741;
+    padding: 20px 30px 25px 30px;
+
+    border-radius: 25px;
+}
+
+.error {
+    color: rgb(205, 61, 61);
+}

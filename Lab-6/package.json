@@ -1,0 +1,18 @@
+{
+	"name": "cs-546-lab-5",
+	"version": "1.0.0",
+	"description": "Lab 6 of CS546 Web Programming 1",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"author": "Kashi Vishwanath Bondugula 20012715",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2",
+		"lodash": "^4.17.21",
+		"mongodb": "^5.1.0",
+		"validator": "^13.9.0"
+	}
+}

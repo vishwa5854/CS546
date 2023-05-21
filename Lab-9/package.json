@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-9",
+  "version": "1.0.0",
+  "description": "Lab 9 of CS546 Web Programming 1",
+  "main": "app.js",
+	"type": "module",
+  "scripts": {
+		"start": "node app.js"
+  },
+  "author": "Kashi Vishwanath Bondugula 20012715",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

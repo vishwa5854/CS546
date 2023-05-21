@@ -1,0 +1,20 @@
+{
+	"name": "cs-546-lab-8",
+	"version": "1.0.0",
+	"description": "Lab 8 of CS546 Web Programming 1",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"author": "Kashi Vishwanath Bondugula 20012715",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.3.4",
+		"express": "^4.18.2",
+		"express-handlebars": "^7.0.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
+}

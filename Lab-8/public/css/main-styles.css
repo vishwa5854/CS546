@@ -1,0 +1,84 @@
+/*This file should have CSS rulesets */
+h2 {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: lightblue;
+    margin: 5px;
+}
+
+ol {
+    text-align: center;
+}
+
+body {
+    background-color: #252b31;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+}
+
+input[type="text"] {
+    margin: 10px;
+    height: 35px;
+
+    border-radius: 5px;
+    border: 5px #393e47;
+    background-color: #2a2f39;
+
+    padding: 0 10px 0 10px;
+    color: white;
+}
+
+input[type="text"]:active, input[type="text"]:focus {
+    outline: 0;
+    border: 5px #0373ff;
+    color: white;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto auto auto;
+    background-color: #0373ff;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+}
+
+input[type="submit"]:focus-visible {
+    outline: 1px white;
+}
+
+main {
+    text-align: center;
+    background-color: #323741;
+    padding: 20px 30px 25px 30px;
+
+    border-radius: 20px;
+}
+
+img {
+    margin: 10px;
+}
+
+.error, .not-found {
+    color: #CF6679;
+}

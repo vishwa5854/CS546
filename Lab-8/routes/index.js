@@ -1,0 +1,9 @@
+import venuesRouter from './venues.js';
+
+const constructorMethod = (app) => {
+    app.use('/', venuesRouter);
+
+    app.use('*', (req, res) => res.status(404).json({ error: 'Route Not found' }));
+};
+
+export default constructorMethod;
